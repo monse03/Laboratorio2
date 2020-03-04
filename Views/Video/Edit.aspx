@@ -4,18 +4,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Registrar video</title>
-    <meta charset="UTF-8">
-     <meta name="description" content="CRUD Video ASP.NET MVC 2.0" />
-    <meta name="keywords" content="ASP.NET,MVC,FACPYA" />
-    <meta name="author" content="Sanjuana Monserrat Ortiz Tovar" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
-
+    <title>Edit</title>
 </head>
 <body>
-   <form action="/Video/Create" method="post">
+    <form action="/Video/Edit" method="post">
    <fieldset>
    <legend>Datos del video</legend>
 
@@ -31,7 +23,7 @@
    <label for="url">URL</label>
    <input type="text" name="url"/>
 
-   <input type="submit" value="Registrar"/>
+   <input type="submit" value="Modificar"/>
 
    </fieldset>
 
